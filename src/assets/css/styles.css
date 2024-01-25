@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center; /* Zentriert den Text im Navigationsmenü */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Fügt einen Abstand zwischen den Navigationslinks hinzu */
+    font-size: 18px; /* Beispielgröße für die Navigationslinks */
+}
+
+#mapid {
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Media Queries für verschiedene Bildschirmgrößen */
+@media screen and (max-width: 1920px) {
+    /* Styles für Bildschirmgröße bis 1920x1080 */
+}
+
+@media screen and (max-width: 1440px) {
+    /* Styles für Bildschirmgröße bis 1440x900 */
+}
+
+@media screen and (max-width: 360px) {
+    /* Styles für Bildschirmgröße bis 360x640 */
+}
